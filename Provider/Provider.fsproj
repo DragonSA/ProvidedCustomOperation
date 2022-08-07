@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <RootNamespace>Provider.Runtime</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="CommonBuilder.fs" />
+        <Compile Include="Provider.fs" />
+        <Compile Include="AssemblyInfo.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FSharp.TypeProviders.SDK" Version="7.0.3" />
+    </ItemGroup>
+
+</Project>
